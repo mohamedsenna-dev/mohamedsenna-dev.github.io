@@ -604,46 +604,16 @@ overflow:hidden;
 .progress-bar{
 
 height:100%;
-
 width:0;
 
 background:linear-gradient(90deg,#2563eb,#7c3aed);
 
 border-radius:50px;
 
-transition:2s;
+transition:width 1.8s ease;
 
 }
 
-.laravel{
-
-width:95%;
-
-}
-
-.php{
-
-width:95%;
-
-}
-
-.python{
-
-width:90%;
-
-}
-
-.mysql{
-
-width:90%;
-
-}
-
-.js{
-
-width:85%;
-
-}
 .card,
 .project,
 .skill{
