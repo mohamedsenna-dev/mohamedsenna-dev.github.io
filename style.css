@@ -644,3 +644,22 @@ width:90%;
 width:85%;
 
 }
+.card,
+.project,
+.skill{
+
+opacity:0;
+
+transform:translateY(40px);
+
+transition:.8s;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
